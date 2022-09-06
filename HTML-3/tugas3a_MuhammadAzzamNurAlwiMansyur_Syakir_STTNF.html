@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Register Produk</title>
+</head>
+
+<body bgcolor="#f8fafc">
+    <form name="formRegister" method="GET" action="#">
+        <table bgcolor="#ffedd5" align="center" cellpadding="15">
+            <thead bgcolor="#f97316">
+                <tr>
+                    <th colspan="2">Form Register Produk</th>
+                </tr>
+            </thead>
+
+            <tfoot bgcolor="#f97316">
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" name="kirim" value="Kirim" />&nbsp;
+                        <input type="reset" name="cancel" value="Batal" />
+                    </th>
+                </tr>
+            </tfoot>
+
+            <tbody>
+                <tr>
+                    <td><label>Nama Produk</label></td>
+                    <td>
+                        <input type="text" name="nama" value="" size="50" maxlength="45" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Jenis Produk</label></td>
+                    <td>
+                        <select name="jenis">
+                            <option value="">-- Kategori Produk --</option>
+                            <option value="Makanan">Makanan</option>
+                            <option value="Minuman">Minuman</option>
+                            <option value="Pakaian">Pakaian</option>
+                            <option value="Laptop">Laptop</option>
+                            <option value="Handphone">Handphone</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Harga Produk</label></td>
+                    <td>
+                        <input type="text" name="harga" value="" size="50" maxlength="45" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Stok Produk</label></td>
+                    <td>
+                        <input type="text" name="stok" value="" size="50" maxlength="3" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Foto Produk</label></td>
+                    <td>
+                        <input type="text" name="foto" value="" size="50" maxlength="45" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
