@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Register</title>
+</head>
+
+<body>
+    <hr />
+    <fieldset>
+        <legend>
+            <font size="5" color="#222" face="Carlito"><b><i><u>FORM REGISTER</u></i></b></font>
+        </legend>
+
+        <form method="post" action="#">
+            <table bgcolor="#ffedd5" align="center" cellpadding="15">
+                <thead bgcolor="#f97316">
+                    <tr>
+                        <th colspan="2">Form Register Member Slot 88</th>
+                    </tr>
+                </thead>
+
+                <tfoot bgcolor="#f97316">
+                    <tr>
+                        <th colspan="2">
+                            <input type="submit" name="kirim" value="Kirim" />&nbsp;
+                            <input type="reset" name="cancel" value="Batal" />
+                        </th>
+                    </tr>
+                </tfoot>
+
+                <tbody>
+                    <tr>
+                        <td><label>Nama Lengkap</label></td>
+                        <td>
+                            <input type="text" name="fullname" id="fullname" size="50" maxlength="45" required />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>No Hp</label></td>
+                        <td>
+                            <input type="text" name="telepon" id="telepon" size="50" maxlength="12" required />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td>
+                            <input type="email" name="email" id="email" size="50" maxlength="45" required />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td>
+                            <input type="password" name="passwd" id="passwd" size="50" maxlength="45" required />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Kategori Member</label></td>
+                        <td>
+                            <select name="kategori">
+                                <option>-- Kategori Member --</option>
+                                <option value="Silver">Silver</option>
+                                <option value="Platinum">Platinum</option>
+                                <option value="Gold">Gold</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Foto Member</label></td>
+                        <td>
+                            <input type="file" name="foto" id="foto" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <br />
+    </fieldset>
+</body>
+
+</html>

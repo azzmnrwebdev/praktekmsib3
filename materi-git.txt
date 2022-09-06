@@ -1,6 +1,0 @@
-apa yang sudah dipelajari ?
-
-- membuat akun github
-- membuat repository
-- menambahkan dan commit file
-- edit file and new commit changes
